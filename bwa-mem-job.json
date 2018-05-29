@@ -1,0 +1,16 @@
+{
+  "reference": {
+    "class": "File",
+    "location": "wildtype.fna"
+  },
+  
+  "output_filename": "bwa-mem-output.bam",
+  "minimum_seed_length": 7,
+
+  "reads":[{
+    "path": "mutant_R1.fastq",
+    "class": "File"
+  }, 
+  {"path": "mutant_R2.fastq", 
+    "class": "File"}]
+}
